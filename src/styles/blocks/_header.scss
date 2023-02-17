@@ -1,0 +1,31 @@
+.header {
+  padding: 25px 0;
+  background-color: $color-dark;
+}
+
+.header-inner {
+  @include inner;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  margin-right: auto;
+  font-family: $font-title;
+  color: $color-light;
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 49px;
+  text-decoration: none;
+}
+
+.header-phone {
+  margin-left: 100px;
+  color: $color-light;
+  font-size: 24px;
+  line-height: 33px;
+  text-decoration: none;
+}
