@@ -1,15 +1,14 @@
 .form {
   display: flex;
+  row-gap: 30px;
   flex-wrap: wrap;
-  width: 66.66%;
-  margin: 70px auto 0;
-  border: 1px solid #000;
+  max-width: 842px;
+  margin: 0 auto;
 }
 
 .form-field {
   flex-basis: 100%;
   padding: 0 $gap-half;
-  margin-bottom: 30px;
 }
 
 .form-field-half {
